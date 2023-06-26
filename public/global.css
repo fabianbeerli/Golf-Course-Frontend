@@ -1,5 +1,6 @@
 body {
     background-image: url('/background.jpg') !important;
+    background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
@@ -27,7 +28,7 @@ body {
   
   @media (max-width: 767px) {
     body {
-        background-attachment: scroll !important;
+      background-attachment: scroll !important;
     }
   }
   
