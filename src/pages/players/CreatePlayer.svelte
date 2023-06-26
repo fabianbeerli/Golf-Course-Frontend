@@ -9,7 +9,7 @@
     };
 
     function addPlayer() {
-        axios.post("http://localhost:3001/api/players", player)
+        axios.post("https://golf-course-backend-c071f3efa027.herokuapp.com/api/players", player)
             .then((response) => {
                 alert("Player added");
             })

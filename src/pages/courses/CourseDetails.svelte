@@ -18,14 +18,14 @@
     let players = [];
 
     function getCourse() {
-        axios.get("http://localhost:3001/api/course/" + id)
+        axios.get("https://golf-course-backend-c071f3efa027.herokuapp.com/api/course/" + id)
             .then((response) => {
                 course = response.data;
             });
     }
 
     function getPlayersForCourse() {
-        axios.get("http://localhost:3001/api/playersforcourse/" + id)
+        axios.get("https://golf-course-backend-c071f3efa027.herokuapp.com/api/playersforcourse/" + id)
             .then((response) => {
             if (Array.isArray(response.data)) {
                 players = response.data;

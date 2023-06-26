@@ -29,14 +29,14 @@
     let courses = [];
 
     function getPlayer() {
-        axios.get("http://localhost:3001/api/player/" + player_id)
+        axios.get("https://golf-course-backend-c071f3efa027.herokuapp.com/api/player/" + player_id)
             .then((response) => {
                 player = response.data;
             });
     }
 
     function getCourses() {
-        axios.get("http://localhost:3001/api/courses/")
+        axios.get("https://golf-course-backend-c071f3efa027.herokuapp.com/api/courses/")
             .then((response) => {
                 courses = response.data;
             });
@@ -44,7 +44,7 @@
 
     function addCourseToPlayer() {
         player.golf_courses.push(course);
-        axios.put("http://localhost:3001/api/players/" + player_id, player)
+        axios.put("https://golf-course-backend-c071f3efa027.herokuapp.com/api/players/" + player_id, player)
             .then((response) => {
                 getPlayer();
             });

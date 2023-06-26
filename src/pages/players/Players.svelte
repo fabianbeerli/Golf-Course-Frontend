@@ -4,7 +4,7 @@
     let players = [];
 
     function getPlayers() {
-        axios.get("http://localhost:3001/api/players").then((response) => {
+        axios.get("https://golf-course-backend-c071f3efa027.herokuapp.com/api/players").then((response) => {
             players = response.data;
         });
     }

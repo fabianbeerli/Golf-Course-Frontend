@@ -4,7 +4,7 @@
     let courses = [];
 
     function getCourses() {
-        axios.get("http://localhost:3001/api/courses").then((response) => {
+        axios.get("https://golf-course-backend-c071f3efa027.herokuapp.com/api/courses").then((response) => {
             courses = response.data;
         });
     }
