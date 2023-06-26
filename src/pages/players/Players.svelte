@@ -13,7 +13,8 @@
 
 <div class="mb-5">
     <h1 class="mt-3">List of all Players</h1>
-    <a href="#/create-player">+ Add Player</a>
+    <button type="button" class="btn btn-light" onclick="window.location.href = '#/create-player'">Add Player</button>
+
     <table class="table">
         <thead>
             <tr>

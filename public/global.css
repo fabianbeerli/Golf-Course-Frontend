@@ -1,1 +1,27 @@
-/* Add your global styles here */
+body {
+    background-image: url('/background.jpg') !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    position: relative !important;
+    color: aliceblue !important;
+  }
+  
+  table {
+    color: aliceblue !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid aliceblue !important;
+  }
+  
+  .home {
+    text-align: center !important;
+  }
+  
+  .btn{
+    margin-bottom: 10px !important;
+  }
+
+  .custom-navbar {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+  }
+  

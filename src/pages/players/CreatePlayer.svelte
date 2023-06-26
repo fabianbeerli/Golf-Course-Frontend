@@ -37,7 +37,7 @@
             <label for="" class="form-label">handicap</label>
             <input class="form-control" type="text" bind:value={player.handicap} />
         </div>
-        <button on:click={addPlayer} type="button" class="btn btn-primary">
+        <button on:click={addPlayer} type="button" class="btn btn-light">
             Add Player
         </button>
     </form>

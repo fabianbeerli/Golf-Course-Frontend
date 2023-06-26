@@ -54,6 +54,7 @@
     <h1 class="mt-3">Course (ID: {id})</h1>
     <p>Location: {course.location}</p>
     <p>Size: {course.size}</p>
+    <h2>Holes</h2>
     <table class="table">
         <thead>
             <tr>
@@ -74,6 +75,7 @@
             {/each}
         </tbody>
     </table>
+    <h2>Players</h2>
     <table class="table">
         <thead>
             <tr>

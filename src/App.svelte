@@ -4,9 +4,9 @@
 </script>
 
 <!-- This part is always displayed -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="#/">Golf Courses</a>
+		<a class="navbar-brand" href="#/">Golf Club</a>
 		<button
 			class="navbar-toggler"
 			type="button"

@@ -55,12 +55,33 @@
     <h1 class="mt-3">Player (ID: {player_id})</h1>
     <p>Name: {player.name}</p>
     <p>Handicap: {player.handicap}</p>
-    <p>Golf Courses:</p>
-    <ul>
-        {#each player.golf_courses as course}
-            <li>{course.golf_course_id}, {course.location}</li>
-        {/each}
-    </ul>
+    <h2>Golf Courses</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Location</th>
+                <th>Size</th>
+            </tr>
+        </thead>
+        <tbody>
+            {#each player.golf_courses as course}
+                <tr>
+                    <td>
+                        <a href={"#/courses/" + course.golf_course_id}>
+                            {course.golf_course_id}
+                        </a>
+                    </td>
+                    <td>
+                        {course.location}
+                    </td>
+                    <td>
+                        {course.size}
+                    </td>
+                </tr>
+            {/each}
+        </tbody>
+    </table>
 
     <h2>Update Golf Courses</h2>
     <label for="player">Add Golf course to Player</label>
