@@ -54,7 +54,7 @@
 <div class="mb-5">
     <h1 class="mt-3">Player (ID: {player_id})</h1>
     <p>Name: {player.name}</p>
-    <p>Hnadicap: {player.handicap}</p>
+    <p>Handicap: {player.handicap}</p>
     <p>Golf Courses:</p>
     <ul>
         {#each player.golf_courses as course}
