@@ -2,7 +2,6 @@
     import axios from "axios";
 
     export let params = {};
-    let course_id;
     let player_id;
 
     $: {
