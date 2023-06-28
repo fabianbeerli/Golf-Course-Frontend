@@ -13,11 +13,11 @@ export default {
     '/': Home,
     '/home': Home,
 
-    // Albums
+    // Courses
     '/courses': Courses,
     '/courses/:id': CourseDetails,
     
-    // Artists
+    // Players
     '/players': Players,
     '/players/:id': PlayerDetails,
     '/create-player': CreatePlayer,
