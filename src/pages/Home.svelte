@@ -6,7 +6,7 @@
     />
 </div>
 <div class="home">
-<h1 class="mt-3">Welcome to Fabian's Golf Club!</h1>
+<h1 class="mt-3">Welcome to Fabian's Golf Club</h1>
 <p>Welcome to Fabian's Golf Club
 
     At Fabian's Golf Club, we strive to provide an exceptional golfing experience for players of all skill levels. Located in a picturesque setting, our club offers a serene and inviting atmosphere that will make your golfing journey truly enjoyable.
